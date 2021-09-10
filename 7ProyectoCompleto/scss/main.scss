@@ -1,0 +1,30 @@
+@import '../ITCSS/settings/variables';
+@import '../ITCSS/tools/functions';
+@import '../ITCSS/generic/generics';
+@import '../ITCSS/generic/normalize.css';
+@import '../ITCSS/elements/elements';
+@import '../ITCSS/objects/objects';
+@import '../ITCSS/components/components';
+@import '../ITCSS/utilities/utilities';
+
+
+
+
+/*
+Por orden de llamada de 
+carpetas
+
+settings: declaramos variables(no genera css)
+tools:metemos funciones o mixings (no genera css) 
+generic:codigo generico afecta a todo como normalize y enlaces externos. 
+elements:tags o etiquetas (no elementos anidados)
+objects:clases reutilizables en cualquier lugar 
+        afectan a varios lugares  
+        un color de un container.
+
+components:bloques bem especificos, piezas completas que pueden trabajar    
+           de forma autonoma
+
+utilities: Los importants generalmente. 
+
+*/

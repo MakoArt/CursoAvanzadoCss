@@ -1,0 +1,7 @@
+:root{
+    --fondoBody:chocolate;
+    --fondoH1Header:chocolate;
+    --colorH3:rgb(252, 195, 169);
+    --fondoTitulos:linear-gradient(90deg,orangered,rgb(243, 123, 79));
+    --fondoMain: linear-gradient(90deg,green,rgb(89,254,90));
+}

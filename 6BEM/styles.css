@@ -1,0 +1,14 @@
+.header__h2{
+    color:red;
+}
+.main__h2{
+    color:blue;
+}
+.header__li{
+    list-style: none;
+    border:1px solid black;
+    background-color: brown;
+}
+.header__li--pajaros{
+    color:white;
+}

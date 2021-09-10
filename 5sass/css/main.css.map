@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../scss/main.scss","../scss/colores/_colores.scss","../scss/medidas/_medidas.scss"],"names":[],"mappings":"AAUA;EACI;;AACA;EACI,OCZK;EDaL,WEdM;;AFgBV;EACI,OCfQ;EDgBR,WEjBS;;AFmBb;EACI,OClBQ;EDmBR,WEpBS;;AFsBb;EACI;;;AAgBR;EANI;EACA;EACA,QAKoB;;;AAExB;EATI;EACA;EACA,QAQoB;;;AAMxB;EACI","file":"main.css"}

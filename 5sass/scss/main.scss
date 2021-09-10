@@ -1,0 +1,54 @@
+//MODULOS O PARTIALS  
+
+@import "colores/colores";
+@import "medidas/medidas";
+
+//VARIABLES 
+
+//EMBEBIDOS 
+
+//header
+header {
+    background-color: black;
+    h1{
+        color:$colorTitulo;
+        font-size: $medidaTitulo;
+    }
+    h2{
+        color:$colorSubtitulo;
+        font-size: $medidaSubtitulo;
+    }
+    h3{
+        color:$colorEnunciado; 
+        font-size: $medidaEnunciado;
+    }
+    li{
+        color:white;
+    }
+
+
+}
+
+//MIXINGS 
+
+
+@mixin colorTexto($borde){
+    color:green;
+    font-size: 40px;
+    border:$borde;
+}
+
+
+h4{
+    @include colorTexto(2px solid red)
+}
+h5{
+    @include colorTexto(none)
+}
+
+
+//OPERADORES  
+
+h4{
+    font-size:20px*2;
+}

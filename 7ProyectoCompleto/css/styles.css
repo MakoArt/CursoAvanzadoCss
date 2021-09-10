@@ -1,0 +1,149 @@
+@import '../ITCSS/generic/normalize.css';
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 75%;
+}
+
+body {
+  width: 100%;
+  height: 72rem;
+  background: linear-gradient(90deg, #df4e4e, #7a1313);
+}
+
+header {
+  border: 2px solid #eeb6b6;
+  background-image: linear-gradient(rgba(110, 16, 16, 0.281), red), url("../img/pizza.jpg");
+  background-size: cover;
+}
+
+h1 {
+  color: #f1bbbb;
+  text-align: center;
+  background-color: rgba(255, 0, 0, 0.699);
+}
+
+h2 {
+  text-align: center;
+  background-color: rgba(255, 0, 0, 0.61);
+  color: #f5aeae;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(0, 255, 0, 0.377);
+}
+
+a {
+  color: #f1b5b1;
+
+}
+
+span {
+  color: green;
+}
+
+.header__a:hover {
+  background-color: green;
+  padding: 0.8rem;
+}
+
+.header__a:active {
+  background-color: yellow;
+  padding: 0.8rem;
+  color: black;
+}
+
+.main__article {
+  border: 1px solid #f3bbbb;
+  width: 94%;
+  height: 30rem;
+}
+
+.main__section {
+  border: 1px solid #8d1414;
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  background-color: #c71f1f;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.main__section h3 {
+  color: #f3baba;
+  padding-top:60px;
+  padding-bottom:50px;
+}
+
+.section__img {
+  width: 8rem;
+  height: 8rem;
+  border: 1px solid #c45a5a;
+  background-image: url("../img/pizza2.jpg");
+  background-size: cover;
+}
+
+.section__img:hover {
+  width: 13rem;
+  height: 13rem;
+  box-shadow: 9px 9px 9px green;
+}
+
+.section__img:active {
+  box-shadow: 9px 9px 9px #e6ff01;
+}
+
+.vegetarianas {
+  background-color: green;
+  margin-top: 0;
+}
+
+.carne {
+  background-color: green;
+  margin-top: 0;
+}
+
+.pescado {
+  background-color: green;
+  margin-top: 0;
+}
+
+.queso {
+  background-color: green;
+  margin-top: 0;
+}
+
+@media(min-width:600px){
+  .section__img{
+      width:8.5rem; 
+      height: 8.5rem;
+  }
+}
+
+
+/*
+Por orden de llamada de 
+carpetas
+
+settings: declaramos variables(no genera css)
+tools:metemos funciones o mixings (no genera css) 
+generic:codigo generico afecta a todo como normalize y enlaces externos. 
+elements:tags o etiquetas (no elementos anidados)
+objects:clases reutilizables en cualquier lugar 
+        afectan a varios lugares  
+        un color de un container.
+
+components:bloques bem especificos, piezas completas que pueden trabajar    
+           de forma autonoma
+
+utilities: Los importants generalmente. 
+
+*/
+
+/*# sourceMappingURL=styles.css.map */

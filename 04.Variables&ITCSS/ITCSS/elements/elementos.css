@@ -1,0 +1,21 @@
+
+body{
+    background-color: var(--fondoBody);
+}
+
+header h1{
+  text-align: center;
+  background-color: var(--fondoH1Header);
+  font-size: 40px;
+  padding:30px;
+}
+h3{
+    color:var(--colorH3);
+    font-size: 25px;
+}
+main{
+    display:block;
+    height: 1620px;
+    width:100%; 
+    background:var(--fondoMain);
+}

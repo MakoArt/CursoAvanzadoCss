@@ -1,0 +1,36 @@
+header {
+  background-color: black;
+}
+header h1 {
+  color: green;
+  font-size: 50px;
+}
+header h2 {
+  color: orangered;
+  font-size: 30px;
+}
+header h3 {
+  color: gray;
+  font-size: 20px;
+}
+header li {
+  color: white;
+}
+
+h4 {
+  color: green;
+  font-size: 40px;
+  border: 2px solid red;
+}
+
+h5 {
+  color: green;
+  font-size: 40px;
+  border: none;
+}
+
+h4 {
+  font-size: 40px;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,33 @@
+
+body{
+    width:100%; 
+    height: 72rem;
+    background:$bodyBackground;
+}
+header{
+border:2px solid rgb(238, 182, 182);
+background-image:$headerBackgroundImage ;
+background-size:cover;
+}
+h1{
+    color:$h1Color;
+    text-align: center;
+    background-color:$h1BackgroundColor; 
+}
+h2{
+    text-align:center; 
+    background-color: $h2BackgroundColor;
+    color:$h2Color;
+}
+ul{
+    display:flex;
+    justify-content: space-evenly;
+    background-color:$ulBackgroundColor ;
+}
+a{
+    color:$aColor;
+    
+}
+span{
+    color: green;
+}

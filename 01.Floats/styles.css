@@ -1,0 +1,34 @@
+/*Limpiando flotados 
+
+existe 
+
+float:right; 
+float:left ; 
+
+y limpiamos con  
+
+clear:right; 
+clear:left ; 
+clear:both; limpia derecho e izquierdo
+
+
+*/
+
+.box{
+    width:100px; 
+    height: 100px;
+    border:1px solid black;
+}
+.box1{
+    background-color: rgb(255, 0, 0);
+    float:right;
+}
+.box2{
+ background-color: blue;
+ float:left;
+}
+
+.box3{
+  background-color: darkgreen;
+  float:right;
+}
